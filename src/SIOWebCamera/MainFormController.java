@@ -87,6 +87,7 @@ public class MainFormController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        
          	ObservableList<WebCamInfo> options = FXCollections.observableArrayList();
 		int webCamCounter = 0;
 		for (Webcam webcam : Webcam.getWebcams()) {
