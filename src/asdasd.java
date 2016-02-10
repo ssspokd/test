@@ -15,7 +15,7 @@ public class asdasd {
     public static void main(String[] args) {
         System.out.println("asdasd.main()");
         System.out.println(System.getProperty("java.library.path"));
-        //System.loadLibrary("opencv_java244") ;
+        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
     
 }
